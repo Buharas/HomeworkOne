@@ -1,0 +1,68 @@
+---
+title: "Homework 1"
+author: "Buhara Sayıl 19080415"
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+According to a new dataset about the global change of __climate__, Emissions increased sharply 
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+Water is an impact multiplier for _sustainability_ and inextricably linked to climate change and the degradation of ecosystems
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+The news has been ***published*** by Packaging Gateway about new packaging shapes and styles.
+
+**Question 4** With Markdown write an unordered list with three items.
+
+- Apple
+- Strawberry
+- Banana
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1. Apple 
+2. Strawberry
+3. Banana
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[For see my favourite webpage, you can click](https://chat.openai.com/chat)
+
+**Question 7** With Markdown add a cat picture.
+
+![cat picture](pexels-pixabay-45201.jpg) 
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+# Calculate the afor the sum of two exponential numbers 
+a <- 2^3
+b <- 5^2
+c <- a + b
+c
+```
+
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$$
+E = mc^2
+$$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+3+4
+```
+for `3 + 4`
